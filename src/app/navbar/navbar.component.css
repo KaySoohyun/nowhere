@@ -1,0 +1,82 @@
+
+.link {
+  text-decoration: none;
+  transition: color .15s ease-in;
+}
+
+.link:link, .link:visited {
+  transition: color .15s ease-in;
+}
+
+.link:hover {
+  transition: color .15s ease-in;
+}
+
+.link:active {
+  transition: color .15s ease-in;
+}
+
+.link:focus {
+  transition: color .15s ease-in;
+  outline: 1px dotted currentColor;
+}
+
+.dim {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+
+.dim:hover, .dim:focus {
+  opacity: .5;
+  transition: opacity .15s ease-in;
+}
+
+.dim:active {
+  opacity: .8;
+  transition: opacity .15s ease-out;
+}
+
+.w2 {
+    width: 2rem;
+}
+
+.pb2 {
+    padding-bottom: .5rem;
+}
+
+.mt2 {
+    margin-top: .5rem;
+}
+
+.v-mid {
+    vertical-align: middle;
+}
+
+.dim {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+}
+
+.dim:hover, .dim:focus {
+    opacity: .5;
+    transition: opacity .15s ease-in;
+}
+
+.dim:active {
+    opacity: .8;
+    transition: opacity .15s ease-out;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 30em) {
+    .w3-ns {
+        width: 4rem;
+    }
+}
+
+.dib {
+  display: inline-block;
+}
